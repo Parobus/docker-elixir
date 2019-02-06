@@ -18,10 +18,10 @@ This image is based off the [official images](https://github.com/c0b/docker-elix
 To upgrade copy the most recent `Dockerfile` to another, and then change the FROM
 statement, or the NPM install statement.
 
-1 - `docker build <target dir>`
-2 - `docker tag <resulting image> parobus/phoenix:<target>`
-3 - `docker tag <resulting image> parobus/phoenix:latest`
-4 - `docker push parobus/phoenix:<target>`
-5 - `docker push parobus/phoenix:latest`
+1. `docker build <target dir>`
+2. `docker tag <resulting image> parobus/phoenix:<target>`
+3. `docker tag <resulting image> parobus/phoenix:latest`
+4. `docker push parobus/phoenix:<target>`
+5. `docker push parobus/phoenix:latest`
 
 Note you will need to be logged in as some with DockerHub priviledges.
