@@ -1,4 +1,4 @@
-FROM elixir:1.9.1
+FROM elixir:1.9.4
 
 # Note updating this forces a rebuild of all underlying containers.
 ENV REFRESHED_AT=2019-09-16
